@@ -54,7 +54,7 @@ function prepareSongList(songList){
 function songElement(song){
     //console.log(song); // returns individual data objects
     
-    var songElement = $('<div class="media text-center"><div class="media-left"></div><div class="media-body"></div><div class="media-player"></div></div>');
+    var songElement = $('<div class="media"><div class="media-left"></div><div class="media-body"></div><div class="media-player"></div></div>');
     
     var trackName = $('<h3></h3>');
     var collectionName = $('<p></p>');
@@ -85,3 +85,5 @@ function songElement(song){
     
     return songElement
 };
+
+// add autocomplete feature
