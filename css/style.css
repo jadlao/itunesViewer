@@ -37,6 +37,14 @@ a {
     background: #ececec;
     padding: 20px;
     border-radius: 30px;
+    position: relative;
+}
+
+.media-wrapper {
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .media-body {

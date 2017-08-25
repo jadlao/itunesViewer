@@ -4,7 +4,7 @@ $(document).ready(function(){
     var searchValue = $('#searchSong :input')[0];
         
     searchForm.submit(function(e){
-        e.preventDefault()
+        e.preventDefault();
         callItunesApi(searchValue.value);
     });
 });
@@ -36,7 +36,7 @@ function callItunesApi(searchTerm){
         })
         .always(function(){
             console.log('done');
-        })
+        });
     }
 };
 
@@ -54,7 +54,7 @@ function prepareSongList(songList){
 function songElement(song){
     //console.log(song); // returns individual data objects
     
-    var songElement = $('<div class="media"><div class="media-left"></div><div class="media-body"></div><div class="media-player"></div></div>');
+    var songElement = $('<div class="media"><div class="media-wrapper"><div class="media-left"></div><div class="media-body"></div><div class="media-player"></div></div></div>');
     
     var trackName = $('<h3></h3>');
     var collectionName = $('<p></p>');
@@ -85,5 +85,3 @@ function songElement(song){
     
     return songElement
 };
-
-// add autocomplete feature
