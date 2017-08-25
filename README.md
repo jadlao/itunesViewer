@@ -10,3 +10,5 @@ Demo: https://jadlao.github.io/itunesViewer
 * I can listen to a short clip of the song in the search results
 
 # Video Walkthrough
+
+![Alt Text](https://image.ibb.co/kiofj5/itunes.gif)
