@@ -4,6 +4,8 @@ artist name, album, album image, a link to the page of the artist on Itunes, and
 
 Stack: Bootstrap, jQuery, iTunes API
 
+Blog post: https://josefadlao.com/blog/posts/2017-08/wikitunes
+
 Demo: https://jadlao.github.io/itunesViewer
 
 # User stories:
